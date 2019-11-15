@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* pembagian */
+
+
+/* TOMBOL */
+#btn-po{
+    padding: 6px 24px;
+}
+
+#btn-cetak{
+    color: #fff;
+    background-color: #999999;
+  
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+    padding: 5px 10px;
+    position: relative;
+    float: left;
+
+}
+
+.btn-info{
+    color: #fff;
+    background-color: #0099cc;
+    border-color: #46b8da;
+}
+.btn-info:hover{
+    color: #fff;
+    background-color: #999;
+    border-color: #46b8da;
+}
+.btn-success {
+    color:#fff;
+    background-color:#009933;
+    border-color:#2e6da4;
+    padding-right: 30px;
+	  padding-left: 30px;
+    text-align:center;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #CC0000;
+    border-color: #d43f3a;
+      padding: 9px;
+}
+.btn-dangerpesan {
+    color: #fff;
+    background-color: #CC0000;
+    border-color: #d43f3a;
+}
+
+/*DROPDOWN  */
+
+.dropdown{padding:4px 15px;float:right;
+
+}
+.dropdown-menu>li{padding:0px -5px;
+}
+#dropdown-menu>li>a {
+    display: block;
+    padding: 3px 2px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+#dropdown-menudetil>li>a {
+    display: block;
+    padding: 3px 18px !important;
+	width:310px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+/*CONTAINER  */
+#containerlogintop{background-color:#00cccc;height:50px; border-radius:6px; }
+#containerloginbot{background-color:#00cccc;height:50px; border-radius:6px;padding:10px; }
+
+.container1{ height:220px; box-shadow:0 0 90px #323130; 	overflow-x:hidden; }
+.container1f{ height:180px; box-shadow:0 0 90px #323130;     overflow-x:hidden; }
+.container2{background-color:#ccc; height:80px; box-shadow:0 0 90px #cccccc; 	overflow-x:hidden; }
+
+.backgroundall{background-image:url(images/05.jpg);
+
+}
+/*UNTUK TAMPILAN LAYAR */
+#bodyloginadmin{
+	font-family:Arial;
+	font-size:14px;
+	margin:0px;
+	background-image:url(images/blackwhite.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+#isiadmin{
+
+	max-width:100%;
+	margin:5px auto;
+	position:relative;
+	display:block;
+	padding:10px;
+	background-color:#ffffff;
+	box-shadow:0 0 5px #aaa;
+}
+
+#view{
+	max-width:60%;
+	margin:2px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow:0 0 1px #aaa;
+}
+#viewgambar{
+	max-width:100%;
+	height:auto;
+	margin:10px auto;
+	position:relative;
+	display:block;
+	color:#999999;
+	background-color:#ffffff;
+	box-shadow: 0 0 5px #ffcc00;
+}
+
+fieldset{
+	margin:10px;
+	border:none;
+}
+
+
+/* ATURAN PEMBAGIAN LAYAR  */
+@media screen and (max-width:720px){
+	.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+		width:90.91%;
+		margin-bottom:1em;
+	}
+}
+
+
+.grid{
+	width:100%;
+	padding:0px;
+	overflow:hidden;
+}
+
+.dh1 { width:6.25%; }
+.dh2 { width:14.58%; }
+.dh3 { width:22.91%; }
+.dh4 { width:31.25%; }
+.dh5 { width:39.58%; }
+.dh6 { width:47.91%; }
+.dh7 { width:56.25%; }
+.dh8 { width:64.58%; }
+.dh9 { width:72.91%; }
+.dh10{ width:81.25%; }
+.dh11{ width:89.58%; }
+.dh12{ width:97.91%; }
+
+.dh1, .dh2,.dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10,.dh11, .dh12{
+	float:left;
+	display:inline;
+	margin:0 1.04%;
+
+}
+
+.dh3{
+float:left;
+margin:0.5%;
+padding:0px 0px;
+}
+
+.dh11{
+float:left;
+margin:0%;
+padding:0px 0px;
+}
+
+
+/*PERUBAHAN PADA NAV */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: pink;
+    background-color: #09C;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 22px;
+}
+
+#navpo {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #999999;
+	border-radius:6px;
+}
+
+
+
+/* PERUBAHAN PADA FORM */
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select, textarea {
+	width:100%;
+	padding:0.8em;
+	margin-top:1em;
+	height: inherit;
+	border:1px solid #999999;
+	background-color:#E9E9E9;
+	font-family:"Arial";
+	color:#333333;
+}
+
+textarea.form-control {
+    height: auto;
+    background-color:#E9E9E9;
+    border: 1px solid #999999;
+}
+.form-control {
+    border: 1px solid #999999;
+    background-color: #E9E9E9 !important;
+
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: -webkit-fill-available;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#textareapesan.form-control {
+    height: auto;
+    height: 220px;
+    background-color: #E9E9E9;
+    border: 1px solid #999999;
+}
+
+
+.selecttgl {
+  border-radius: 4px;
+    width: auto;
+    padding: 0.8em;
+    margin-top: 1em;
+    border: 1px solid #999999;
+    background-color: #E9E9E9;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+#wellbaru {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+
+/*PERUBAHAAN PADA TABEL */
+#thpokesimpulan{
+	text-align:center;
+    background-color:
+    #ec971f;
+    border-color:
+    #d58512;
+	 padding: 10px;
+	color:#000000;
+	font-family:Arial;
+
+}
+#thpo{
+	text-align:center;
+	background-color:#09C;
+	 padding: 10px;
+	color:#ffffff;
+	font-family:Arial;
+
+}
+
+#thwarning{
+	text-align:center;
+	
+	 padding: 10px;
+	color:#CC0000;
+	font-family:Arial;
+
+
+}
+
+td{
+color:#666666;}
+
+/*DESIGN LAINNYA (WARNA, tulisan,  BATAS ATAS DLL)  */
+#akananatas  {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+#ulkananatas{
+background-color:#666666;}
+
+
+#poaadminkananatas {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+#po{width:100%;}
+
+#tulisan{font-family:Arial, Helvetica, sans-serif;
+color:#333333;}
+
+img {
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+#textheader{
+color: #000;
+
+
+}
+
+
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #000000 !important;
+    text-decoration: none;
+
+}

@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS DIFO */
+
+/* kumpulan kontainer */
+#containerlogintop{background-color:#09c;height:50px; padding:10px; }
+
+
+
+
+/*BUTTON  */
+.btn-dangerpesan {
+    color: #fff;
+    background-color: #CC0000;
+    border-color: #d43f3a;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+    padding: 5px 10px;
+    position: relative;
+    float: left;
+
+}
+.btn-info{
+    color: #fff;
+    background-color: #0099cc;
+    border-color: #46b8da;
+}
+.btn-info:hover{
+    color: #fff;
+    background-color: #0033cc;
+    border-color: #46b8da;
+}
+.btn-success {
+    color:#fff;
+    background-color:#009933;
+    padding-right:: 30px;
+	padding-left:: 30px;
+    text-align:center;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #CC0000;
+    border-color: #d43f3a;
+    padding: 9px;
+}
+#btn-po{
+    padding: 6px 24px;
+}
+
+/*FORM */
+
+
+
+
+
+.dropdown{padding:4px 15px;float:right;
+
+}
+.dropdown-menu>li{padding:0px -5px;}
+
+.grid{
+	width:100%;
+	padding:0px;
+	overflow:hidden;
+}
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select, textarea {
+	width:100%;
+	padding:0.8em;
+	margin-top:1em;
+	border:1px solid #999999;
+	background-color:#E9E9E9;
+	font-family:"Arial";
+	color:#333333;
+}
+
+textarea.form-control {
+    height: auto;
+    background-color:#E9E9E9;
+    border: 1px solid #999999;
+}
+.form-control {
+    border: 1px solid #999999;
+    background-color: #E9E9E9 !important;
+
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: -webkit-fill-available;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.selecttgl {
+  border-radius: 4px;
+    width: auto;
+    padding: 0.8em;
+    margin-top: 1em;
+    border: 1px solid #999999;
+    background-color: #E9E9E9;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+/*PEMBAGIAN LETAK  */
+
+.grid{
+	width:100%;
+	padding-top:20px;
+	padding-bottom:20px;
+	overflow-x:hidden;
+}
+
+.dh1 { width:6.25%; }
+.dh2 { width:14.58%; }
+.dh3 { width:22.91%; }
+.dh4 { width:31.25%; }
+.dh5 { width:39.58%; }
+.dh6 { width:47.91%; }
+.dh7 { width:56.25%; }
+.dh8 { width:64.58%; }
+.dh9 { width:72.91%; }
+.dh10{ width:81.25%; }
+.dh11{ width:89.58%; }
+.dh12{ width:97.91%; }
+
+.dh1, .dh2, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh12{
+	float:left;
+	display:inline;
+	margin:0 1.04%;
+
+}
+
+.dh3{
+
+float:left;
+margin:0.5%;
+padding:0px 0px;}
+
+
+
+.dh11{
+
+
+float:left;
+margin:0%;
+padding:0px 0px;}
+
+
+@media screen and (max-width:720px){
+	.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+		width:97.91%;
+		margin-bottom:1em;
+	}
+}
+
+/*TABEL */
+
+#thpo{
+	text-align:center;
+	background-color:#09c;
+	 padding: 10px;
+	color:#ffffff;
+	font-family:Arial;
+
+}
+
+
+td{
+color:#000000;}
+
+
+/*NAVBAR  */
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffff00;
+    background-color: #09c;
+}
+#navpo {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #999999;
+	border-radius:6px;
+}
+navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 22px;
+}
+
+a {
+    color: #ffffff !important;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #000000 !important;
+    text-decoration: none;
+
+}
+
+/* VIEW */
+
+#wellbaru {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+
+#isiadmin{
+
+	max-width:100%;
+	margin:5px auto;
+	position:relative;
+	display:block;
+	padding:10px;
+	background-color:#ffffff;
+	box-shadow:0 0 5px #aaa;
+}
+
+fieldset{
+	margin:10px;
+	border:none;
+}
+
+#view{
+	max-width:60%;
+	margin:2px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow:0 0 1px #aaa;
+}
+#viewbalaspesan{
+	max-width:60%;
+	margin:2px auto;
+	align:left;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow:0 0 2px #aaa;
+}
+
+/*DDROPDOWN */
+
+#dropdown-menu>li>a {
+    display: block;
+    padding: 3px 2px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+#dropdown-menudetil>li>a {
+    display: block;
+    padding: 3px 18px !important;
+	width:310px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+
+
+/* TAMPILAN LAINNYA */
+#bodyloginadmin{
+	font-family:Arial;
+	font-size:14px;
+	margin:0px;
+	background-image:url(../images/01.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+
+
+#po{width:100%;}
+
+
+
+
+#poaadminkananatas {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+
+#tulisan{font-family::Arial, Helvetica, sans-serif;
+color:#333333
+;}
+
+img {
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+#textheader{
+color: #000;
+background: #ffcc00;
+text-shadow: 0 0 4px #ccc, 0 -5px 4px #fff, 2px -10px 6px #cccccc, -2px -15px 11px #fff, 2px -18px 18px #fff;}
+
+
+.apagination {
+    color: #ff9900 !important;
+    text-decoration: none;
+
+}
+
+
+
+#ulkananatas{
+background-color:#666666;}
